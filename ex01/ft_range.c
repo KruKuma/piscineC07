@@ -6,7 +6,7 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/02 19:42:12 by nfurst            #+#    #+#             */
-/*   Updated: 2026/07/02 19:42:12 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/07/03 09:58:09 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,30 +32,28 @@ int	*ft_range(int min, int max)
     return (range);
 }
 
-#include <stdio.h>
-
-int main(int argc, char **argv)
-{
-    int min;
-    int max;
-
-    if (argc != 3)
-        return (1);
-    min = atoi(argv[1]);
-    max = atoi(argv[2]);
-    int *range = ft_range(min, max);
-    if (range)
-    {
-        while (min < max)
-        {
-            printf("%d ", range[min - min]);
-            min++;
-        }
-        free(range);
-    }
-    else
-    {
-        printf("Invalid range or memory allocation failed.\n");
-    }
-    return (0);
-}
+// #include <stdio.h>
+// int main(int argc, char **argv)
+// {
+//     int min;
+//     int max;
+//     if (argc != 3)
+//         return (1);
+//     min = atoi(argv[1]);
+//     max = atoi(argv[2]);
+//     int *range = ft_range(min, max);
+//     if (range)
+//     {
+//         while (min < max)
+//         {
+//             printf("%d ", range[min - min]);
+//             min++;
+//         }
+//         free(range);
+//     }
+//     else
+//     {
+//         printf("Invalid range or memory allocation failed.\n");
+//     }
+//     return (0);
+// }
