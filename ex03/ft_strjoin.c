@@ -6,12 +6,12 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/06 15:53:32 by nfurst            #+#    #+#             */
-/*   Updated: 2026/07/06 15:53:32 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/07/09 15:40:29 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
+// #include <stdio.h>
 
 int    ft_strlen(char *str)
 {
@@ -76,15 +76,15 @@ char    *ft_strjoin(int size, char **strs, char *sep)
     return (result);
 }
 
-int main(int argc, char **argv)
-{
-    if (argc < 2)
-        return (1);
-    char *result = ft_strjoin(argc - 1, argv + 1, ", ");
-    if (result)
-    {
-        printf("%s\n", result);
-        free(result);
-    }
-    return (0);
-}
+// int main(int argc, char **argv)
+// {
+//     if (argc < 2)
+//         return (1);
+//     char *result = ft_strjoin(argc - 1, argv + 1, ", ");
+//     if (result)
+//     {
+//         printf("%s\n", result);
+//         free(result);
+//     }
+//     return (0);
+// }
