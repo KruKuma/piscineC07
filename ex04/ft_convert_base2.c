@@ -6,7 +6,7 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/06 16:18:34 by nfurst            #+#    #+#             */
-/*   Updated: 2026/07/06 16:18:34 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/07/09 15:44:41 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,9 @@ int	ft_check_base(char *base)
 	int	j;
 
     if (ft_strlen(base) < 2)
-        return (0);
+	{
+		return (0);
+	}
 	i = 0;
 	while (base[i] != '\0')
 	{
