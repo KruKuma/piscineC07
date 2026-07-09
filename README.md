@@ -2,7 +2,7 @@
 
 42 Piscine C07 exercises.
 
-This repository contains my solutions for the C07 project from the 42 Piscine.  
+This repository contains my solutions for the C07 project completed during the 42 Piscine.  
 The project focuses on dynamic memory allocation, arrays, string duplication, string joining, base conversion, and string splitting in C.
 
 ## Exercises
@@ -63,10 +63,14 @@ Before submitting to 42, testing `main` functions and unnecessary includes shoul
 
 ## Notes
 
-This repository is part of my 42 Piscine preparation.  
+## Notes
+
+This repository is part of my work during the 42 Piscine.  
 The goal of C07 is to become more comfortable with manual memory allocation, pointer manipulation, and returning dynamically allocated data from C functions.
 
 Memory allocated with `malloc` should be freed by the caller when it is no longer needed.
+
+Testing `main` functions and unnecessary includes should be removed before submitting to 42.
 
 ## Author
 
