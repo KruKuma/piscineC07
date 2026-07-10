@@ -6,7 +6,7 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/06 16:18:30 by nfurst            #+#    #+#             */
-/*   Updated: 2026/07/06 16:18:30 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/07/09 15:42:42 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,23 +115,23 @@ char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 	return (result);
 }
 
-#include <stdio.h>
-int main(int argc, char **argv)
-{
-    if (argc != 4)
-        return (1);
-    char *nbr = argv[1];
-    char *base_from = argv[2];
-    char *base_to = argv[3];
-    char *converted = ft_convert_base(nbr, base_from, base_to);
-    if (converted)
-    {
-        printf("%s\n", converted);
-        free(converted);
-    }
-    else
-    {
-        printf("Invalid base or conversion error.\n");
-    }
-    return (0);
-}
+// #include <stdio.h>
+// int main(int argc, char **argv)
+// {
+//     if (argc != 4)
+//         return (1);
+//     char *nbr = argv[1];
+//     char *base_from = argv[2];
+//     char *base_to = argv[3];
+//     char *converted = ft_convert_base(nbr, base_from, base_to);
+//     if (converted)
+//     {
+//         printf("%s\n", converted);
+//         free(converted);
+//     }
+//     else
+//     {
+//         printf("Invalid base or conversion error.\n");
+//     }
+//     return (0);
+// }
